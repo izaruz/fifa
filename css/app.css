@@ -1,0 +1,25 @@
+.ex-border{
+	border: 1px solid red;
+}
+
+.fifaCopy{
+	position: relative;
+}
+.fifaCopy picture{
+	width: 100%;
+	max-height: 952px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+.fifaCopy-picture img{
+	width: 100%;
+}
+.fifaCopy-content{
+	position: absolute;
+	top:10%;
+	z-index: 2;
+}
+.fifaEditions{
+	background-color: #201c55;
+}
