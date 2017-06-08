@@ -7,13 +7,16 @@
 	color: #a2a2a2;
 	font-family: 'Oswald', sans-serif;
 }
+.brand-logo{
+	
+}
 .navbar-container{
 	background-color: #161616;
 }
 .navbar{
 	background-color: #161616;
 	z-index: 1000;
-	width: 100%;
+	width: 70%;
 	padding: 10px 0;
 }
 .navbar li{
@@ -24,7 +27,7 @@
 	text-decoration: none;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 17px;
 	transition: all 0.5s ease;
 }
 .navbar-menu-items a:hover,
@@ -49,6 +52,20 @@
 }
 .dropdown a:after {
     color: red;
+}
+#getFifa a{
+	background-color: #c0ff36;
+	padding: 15px 30px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #161616;
+	border-radius: 5px;
+	display: inline-block;
+	transition: all 0.1s ease;
+}
+#getFifa a:hover{
+	border: 1px solid #c0ff36;
 }
 .fifaCopy{
 	position: relative;
@@ -88,7 +105,12 @@
 	border-left: 1px dashed #c7c7cc;
 }
 .social-items:first-child{
-	border-left: 0px solid #c7c7cc;
+	border-left: 0;
+}
+@media screen and (max-width: 39.9375em){
+	.social-items:nth-child(odd){
+		border-left: 0;
+	}
 }
 .social-items p{
 	font-family: 'Oswald', sans-serif;
@@ -127,6 +149,6 @@ footer{
 }
 .legal-logo-footer{
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	bottom: 25px;
+	left: 110px;
 }
