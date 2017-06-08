@@ -1,7 +1,15 @@
 .ex-border{
 	border: 1px solid red;
 }
-
+#easports{
+	background-color: #161616;
+	height: 45px;
+	color: #a2a2a2;
+	font-family: 'Oswald', sans-serif;
+}
+.navbar{
+	background-color: #161616;
+}
 .fifaCopy{
 	position: relative;
 }
@@ -22,4 +30,63 @@
 }
 .fifaEditions{
 	background-color: #201c55;
+}
+.social{
+	background-color: #e8e8ee;
+	padding: 75px 85px;
+	text-align: center;
+}
+.social h4{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+}
+.social-items{
+	padding-top: 25px; 
+	padding-bottom: 25px;
+	border-left: 1px dashed #c7c7cc;
+}
+.social-items:first-child{
+	border-left: 0px solid #c7c7cc;
+}
+.social-items p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.social-items i{
+	color: #cf216a;
+	font-size: 35px;
+}
+footer{
+	background-color: #000000;
+	padding: 20px 15px;
+}
+.legal{
+	background-color: #444444;
+	position: relative;
+}
+.legal-nav{
+	padding: 0;
+	margin: 0;
+}
+.legal-items{
+	display: inline-block;
+	margin-left: 15px;
+}
+.legal-items a{
+	font-size: 12px;
+	color: #fefefe;
+	text-decoration: none;
+}
+.legal p{
+	font-size: 12px;
+	color: #fefefe;
+	text-decoration: none;
+}
+.legal-logo-footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
