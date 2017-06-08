@@ -88,6 +88,147 @@
 .fifaEditions{
 	background-color: #201c55;
 }
+.video-animation{
+	position: relative;
+	overflow: hidden;
+	height: 450px;
+	margin: 0;
+}
+#video-container {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+	margin: 0;
+}
+video {
+	position:absolute;
+	top:-25%;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+}
+.video-content{
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 6% 10%;
+	z-index: 50;
+	height: 100%;
+}
+.video-content-title{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 34px;
+	color: #c0ff36;
+	padding: 40px 0px 10px 0px;
+}
+.video-content-text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding: 10px 0;
+	color: #fefefe;
+}
+.video-content-btns .first{
+	background-color: #c0ff36;
+	padding: 15px 30px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #161616;
+	border-radius: 5px;
+	display: inline-block;
+	transition: all 0.3s ease;
+	margin-left: 25px;
+}
+.video-content-btns .second{
+	background-color: transparent;
+	padding: 15px 30px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #fefefe;
+	border-radius: 5px;
+	display: inline-block;
+	transition: all 0.3s ease;
+	margin-left: 25px;
+	border: 2px solid #fefefe;
+}
+.video-content-btns .first:hover{
+	border: 1px solid #c0ff36;
+}
+.subscribe{
+	background-color: #fefefe;
+	padding: 40px 0;
+	color: #161616;
+}
+.subscribe-title{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 34px;
+	padding: 40px 0px 10px 0px;
+}
+.subscribe-content{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding: 10px 0;
+}
+.subscribe-link{
+	color: #c0ff36;
+	text-decoration: none;
+}
+.subscribe-form-content input{
+	border: 2px solid #161616;
+	border-radius: 5px;
+	padding: 25px;
+	font-size: 20px
+}
+.subscribe-form-content select{
+	border: 2px solid #161616;
+	border-radius: 5px;
+	padding: 25px;
+	font-size: 20px
+}
+.subscribe-form-content select option{
+	padding: 25px;
+	font-size: 20px;
+	color: #161616;
+	transition: all 0.1s ease;
+}
+.subscribe-form-content select option:hover{
+	background-color: #161616;
+	font-size: 22px;
+}
+.subscribe-form-content select option:checked{
+	color: #161616;
+}
+.subscribe-copy{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	padding: 10px 0;
+}
+.subscribe-form-btn{
+	padding-bottom: 10px;
+}
+.subscribe-form-btn a{
+	background-color: #c0ff36;
+	padding: 15px 30px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #161616;
+	border-radius: 5px;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+.subscribe-form-btn a:hover{
+	border: 1px solid #c0ff36;
+}
 .social{
 	background-color: #e8e8ee;
 	padding: 75px 85px;
@@ -151,4 +292,16 @@ footer{
 	position: absolute;
 	bottom: 25px;
 	left: 110px;
+}
+.trust{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.trust img{
+}
+.trust p{
+	margin: 0 0 0 10px;
+	padding: 0;
 }
